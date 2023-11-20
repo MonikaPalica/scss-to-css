@@ -1,0 +1,24 @@
+/* Default variables. */
+/**
+ * Brand color palette.
+ */
+.btn-main {
+  background-color: darkblue;
+  color: white;
+}
+.btn-main:hover, .btn-main:focus {
+  background-color: transparent;
+  color: darkblue;
+}
+
+.btn-secondary {
+  background-color: green;
+  color: white;
+  border: 1px solid green;
+}
+.btn-secondary:hover, .btn-secondary:focus {
+  background-color: white;
+  color: green;
+}
+
+/*# sourceMappingURL=style.css.map */

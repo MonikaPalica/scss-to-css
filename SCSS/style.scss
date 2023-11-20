@@ -1,0 +1,23 @@
+/* Default variables. */
+@import "variables";
+
+.btn-main {
+  background-color: $brand-colour-01;
+  color: $white;
+  &:hover,
+  &:focus {
+    background-color: transparent;
+    color: $brand-colour-01;
+  }
+}
+
+.btn-secondary {
+  background-color: $brand-colour-02;
+  color: $white;
+  border:1px solid $brand-colour-02;
+  &:hover,
+  &:focus {
+    background-color: $white;
+    color: $brand-colour-02;
+  }
+}
